@@ -3,55 +3,78 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="facebook-domain-verification" content="COLE_SEU_CODIGO_AQUI">
-<title>Empresa</title>
+
+<!-- 🔐 COLE A META TAG AQUI -->
+<meta name="facebook-domain-verification" content="SEU_CODIGO_AQUI">
+
+<title>Victor Gustavo Pedrosa LTDA</title>
+
 <style>
 body { font-family: Arial; margin:0; background:#0f172a; color:#fff; }
-header { padding:40px; text-align:center; background:#020617; }
+header { padding:50px 20px; text-align:center; background:#020617; }
+h1 { margin:0; font-size:32px; }
 section { padding:30px; max-width:900px; margin:auto; }
 .card { background:#111827; padding:20px; border-radius:10px; margin-bottom:20px; }
 a { color:#60a5fa; }
-.button { background:#2563eb; padding:10px 15px; border-radius:6px; color:#fff; text-decoration:none; }
+.button { background:#2563eb; padding:12px 18px; border-radius:6px; color:#fff; text-decoration:none; display:inline-block; margin-top:10px; }
 </style>
-<script>
-const config = {
-  empresa: "NOME DA EMPRESA",
-  descricao: "Soluções digitais",
-  cnpj: "00.000.000/0001-00",
-  email: "contato@email.com",
-  telefone: "(00) 00000-0000",
-  whatsapp: "5500000000000"
-};
-</script>
 </head>
+
 <body>
+
 <header>
-<h1 id="empresa"></h1>
-<p id="descricao"></p>
+  <h1>Victor Gustavo Pedrosa LTDA</h1>
+  <p>Comércio e distribuição de produtos</p>
 </header>
+
 <section>
+
 <div class="card">
 <h2>Sobre</h2>
-<p><strong>CNPJ:</strong> <span id="cnpj"></span></p>
+<p><strong>Razão Social:</strong> Victor Gustavo Pedrosa LTDA</p>
+<p><strong>CNPJ:</strong> 53.342.380/0001-09</p>
+<p><strong>Situação:</strong> Ativa</p>
+<p><strong>Localização:</strong> Cordeirópolis - SP</p>
+
+<p>
+A empresa atua no comércio atacadista e varejista de produtos diversos,
+oferecendo soluções em distribuição e fornecimento para diferentes segmentos,
+com foco em organização, logística e atendimento eficiente.
+</p>
 </div>
+
+<div class="card">
+<h2>Atividades</h2>
+<p>• Comércio atacadista de produtos diversos</p>
+<p>• Comércio varejista de mercadorias</p>
+<p>• Distribuição e fornecimento de produtos</p>
+</div>
+
 <div class="card">
 <h2>Contato</h2>
-<p>Email: <span id="email"></span></p>
-<p>Telefone: <span id="telefone"></span></p>
-<a id="whatsapp" class="button" target="_blank">WhatsApp</a>
+<p>Email: contato@victorpedrosa.com</p>
+<p>Telefone: (19) 99999-9999</p>
+
+<a href="https://wa.me/5519999999999" class="button" target="_blank">
+Fale no WhatsApp
+</a>
 </div>
+
 <div class="card">
+<h2>Endereço</h2>
+<p>Avenida Fazenda Ibicaba, 476</p>
+<p>Distrito Industrial Prefeito Geraldo Botion</p>
+<p>Cordeirópolis - SP</p>
+<p>CEP: 13494-000</p>
+</div>
+
+<div class="card">
+<h2>Informações Legais</h2>
 <p><a href="privacidade.html">Política de Privacidade</a></p>
 <p><a href="termos.html">Termos de Uso</a></p>
 </div>
+
 </section>
-<script>
-document.getElementById("empresa").innerText = config.empresa;
-document.getElementById("descricao").innerText = config.descricao;
-document.getElementById("cnpj").innerText = config.cnpj;
-document.getElementById("email").innerText = config.email;
-document.getElementById("telefone").innerText = config.telefone;
-document.getElementById("whatsapp").href = "https://wa.me/" + config.whatsapp;
-</script>
+
 </body>
 </html>
